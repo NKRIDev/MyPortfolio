@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - NKRIDev</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <script src="https://kit.fontawesome.com/6bf16174ee.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+    <div class="transition-bg"></div>
+    <div class="content">
+        <header>
+            <div class="logo"></div>
+
+            <div class="navbars">
+                <div class="menu-responsive">
+                    <h1>devnkri.com</h1>
+                    <img src="assets/img/menu.png" alt="navbar" class="menu-responsive-img">
+                </div>
+
+                <nav class="nav-toolbar">
+                    <ul>
+                        <li><a id="home-button" href="#home">Acceuil</a></li>
+                        <li><a id="tech-button" href="#tech-stack">Techno</a></li>
+                        <li><a id="projects-button" href="#projects">Projets</a></li>
+                        <li><a id="about-button" href="#about-me">À propos</a></li>
+                    </ul>
+                </nav>
+                <nav class="nav-linkbar">
+                    <ul>
+                        <li><a href="https://github.com/NKRIDev"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://twitter.com/DevNkri"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://discord.gg/z8r3RpCJSW"><i class="fa-brands fa-discord"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="wallpaper" id="home">
+                <div class="title">
+                    <h1>Salut <span class="hello">👋</span>, <br>Mon nom est <span class="pseudo">NKRI</span><br>Je suis
+                        <span class="text-typing"></span>
+                    </h1>
+                </div>
+                <div class="profile-photo" id="pp"></div>
+            </div>
+
+            <div class="tech-stack" id="tech-stack">
+                <div class="title-container">
+                    <h1>Mes technologies</h1>
+                    <p>technologies avec lesquelles je travaille.</p>
+                </div>
+                <div class="grid-container">
+                    <div class="logo-array">
+                        <img src="./assets/img/tech-stack/java.svg" alt="logo de java">
+                        <img src="./assets/img/tech-stack/javascript.svg" alt="logo de javascript">
+                        <!--
+                                                <img src="./assets/img/tech-stack/html.svg" alt="logo de html">
+                        <img src="./assets/img/tech-stack/css.svg" alt="logo de css3">
+                        -->
+                        <img src="./assets/img/tech-stack/mysql.svg" alt="logo de mysql">
+                        <img src="./assets/img/tech-stack/react.svg" alt="logo de react">
+                        <img src="./assets/img/tech-stack/node-js.svg" alt="logo de node-js">
+                        <img src="./assets/img/tech-stack/github-tech.svg" alt="logo de git">
+                        <img src="./assets/img/tech-stack/eclipse.svg" alt="logo de eclipse">
+                        <img src="./assets/img/tech-stack/visual-studio-code.svg" alt="logo de visual-studio-code">
+                        <img src="./assets/img/tech-stack/intellij.svg" alt="logo de intellij">
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects" id="projects">
+                <div class="title-container">
+                    <h1>Projets</h1>
+                    <p>Exemple de différents projets réalisés.</p>
+                </div>
+                <div class="card-container">
+                    <div class="card" id="todo-list">
+                        <img src="./assets/img/todolist.png" alt="todo list image">
+                        <div class="card-container-text">
+                            <h1>Todo List</h1>
+                            <p>Premier projet React.js : une application de gestion de tâches.</p>
+                            <p id="tech-stack-lore">Technologie(s): JavaScript avec ReactJS</p>
+                            <div class="button-card">
+                                <a href="https://github.com/NKRIDev/TodoList">🔗Voir</a>
+                                <a href="https://github.com/NKRIDev/TodoList">💻Voir le code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" id="mcp-json">
+                        <img src="./assets/img/exemple_two.png" alt="image d'application">
+                        <div class="card-container-text">
+                            <h1>MCP-JsonCreator</h1>
+                            <p>Application pour générer rapidement des fichiers JSON pour chaque "item" de la version
+                                1.8.8 de MCP.</p>
+                            <p id="tech-stack-lore">Technologie(s): Java avec JavaFX</p>
+                            <div class="button-card">
+                                <a href="https://twitter.com/i/status/1734682646960300412">🔗Voir</a>
+                                <a href="https://github.com/NKRIDev/MCP-JsonCreator">💻Voir le code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" id="wizapi">
+                        <img src="./assets/img/exemple_three.png" alt="wizapi-image">
+                        <div class="card-container-text">
+                            <h1>WizAPI</h1>
+                            <p>API simplifiant la création de plugins Minecraft, incluant la gestion des packets,
+                                commandes, JSON, etc... (voir github).</p>
+                            <p id="tech-stack-lore">Technologie(s): Java avec SpigotAPI</p>
+                            <div class="button-card">
+                                <a href="https://github.com/NKRIDev/WizAPI">🔗Voir</a>
+                                <a href="https://github.com/NKRIDev/WizAPI">💻Voir le code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" id="monster">
+                        <img src="./assets/img/exemple_monster.png" alt="monster-image">
+                        <div class="card-container-text">
+                            <h1>Animation MC</h1>
+                            <p>Conception de monstres inédits dotés d'IA pour leur déplacement et leurs attaques, avec
+                                des rendus 3D spéciaux incluant des animations détaillées sur différentes parties de
+                                leur corps.</p>
+                            <p id="tech-stack-lore">Technologie(s): Java (MCP 1.7.10)</p>
+                            <div class="button-card">
+                                <a href="https://twitter.com/DevNkri">🔗Voir</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" id="battlepass">
+                        <img src="./assets/img/exemple_four.png" alt="">
+                        <div class="card-container-text">
+                            <h1>BattlePass</h1>
+                            <p>Passe de combat du jeux vidéo Fortnite reproduit sur Minecraft: défis journaliés et par
+                                semaine, paliers et récompenses...</p>
+                            <p id="tech-stack-lore">Technologie(s): Java et SpigotAPI</p>
+                            <div class="button-card">
+                                <a href="https://www.youtube.com/@MinoziaFR">🔗Voir (disponible à la sortie de
+                                    MinoziaV6)</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" id="skill">
+                        <img src="./assets/img/exemple_skill.png" alt="">
+                        <div class="card-container-text">
+                            <h1>Talent</h1>
+                            <p>C'est comme dans les RPG : vous devez choisir votre classe et la perfectionner pour
+                                débloquer de nouvelles fonctionnalités.</p>.</p>
+                            <p id="tech-stack-lore">Technologie(s): Java avec SpigotAPI</p>
+                            <div class="button-card">
+                                <a href="https://twitter.com/i/status/1744092598006948189">🔗Voir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-me-container" id="about-me">
+                <h1>Moi</h1>
+                <p>🚀 Salut ! J'ai 18ans, j'apprends actuellement les langages du Web et je suis passionné par
+                    l'informatique. Mes compétences incluent la maîtrise de plusieurs langages de programmation, une
+                    compréhension des concepts de base du développement logiciel, la collaboration au sein d'équipes et
+                    une capacité à résoudre des problèmes. Pour me contacter, vous pouvez me joindre sur Discord.</p>
+            </div>
+        </main>
+
+        <footer>
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+
+            <div class="credentials">
+                <p>Développé par NKRI avec <span class="heart">❤</span></p>
+                <p>© Copyright 2024, devnkri.fr, Tous droits réservés.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
